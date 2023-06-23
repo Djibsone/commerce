@@ -1,0 +1,119 @@
+/* Custom CSS */
+    .word-wrap{
+      overflow-wrap: break-word;
+    }
+    .prod-body{
+      height:300px;
+    }
+
+    .box:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    .register-box{
+      margin-top:20px;
+    }
+
+    #trending{
+      list-style: none;
+      padding:10px 5px 10px 15px;
+    }
+    #trending li {
+      padding-left: 1.3em;
+    }
+    #trending li:before {
+      content: "\f046";
+      font-family: FontAwesome;
+      display: inline-block;
+      margin-left: -1.3em; 
+      width: 1.3em;
+    }
+
+    /*Magnify*/
+    .magnify > .magnify-lens {
+      width: 100px;
+      height: 100px;
+    }
+
+
+    /* style produit affiche */
+  		.mt20{
+  			margin-top:20px;
+  		}
+      .bold{
+        font-weight:bold;
+      }
+
+      /*chart style*/
+      #legend ul {
+        list-style: none;
+      }
+
+      #legend ul li {
+        display: inline;
+        padding-left: 30px;
+        position: relative;
+        margin-bottom: 4px;
+       /* border-radius: 5px;*/
+        padding: 2px 8px 2px 28px;
+        font-size: 14px;
+        cursor: default;
+        -webkit-transition: background-color 200ms ease-in-out;
+        -moz-transition: background-color 200ms ease-in-out;
+        -o-transition: background-color 200ms ease-in-out;
+        transition: background-color 200ms ease-in-out;
+      }
+
+      #legend li span {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 20px;
+        height: 100%;
+       /* border-radius: 5px;*/
+      }
+
+      #user {
+        text-transform: capitalize;
+        font-size: large;
+        color: black;
+        font-weight: 200;
+      }
+
+    /* Small devices (tablets, 477px and up) */
+    @media screen and (max-width: 477px){ 
+      textarea {
+        width: 100%; 
+      }
+
+      .table {
+        width: 100%;
+        
+      }
+
+      tbody {
+        width: 50%;
+        flex-direction: column;
+        
+      }
+    }
+
+    /* Small devices (tablets, 768px and up) */
+    @media (min-width: 768px){ 
+      #navbar-search-input{ 
+        width: 60px; 
+      }
+      #navbar-search-input:focus{ 
+        width: 100px; 
+      }
+    }
+
+    /* Medium devices (desktops, 992px and up) */
+    @media (min-width: 992px){ 
+      #navbar-search-input{ 
+        width: 150px; 
+      }
+      #navbar-search-input:focus{ 
+        width: 250px; 
+      } 
+    }
